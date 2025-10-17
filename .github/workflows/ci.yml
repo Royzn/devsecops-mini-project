@@ -29,4 +29,4 @@ jobs:
     - name: GitLeaks Scan (Secrets Detection)
       uses: zricethezav/gitleaks-action@v2
       with:
-        args: detect --source=. --verbose --redact
+        args: --verbose --redact
